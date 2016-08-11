@@ -2,7 +2,7 @@
  
 * Node
 * Express
-* Vuejs 2.0 (Vuepack)
+* Vuejs 2.0 (Vuepack https://github.com/egoist/vuepack)
 * MongoDB
 * Socket.IO
  
