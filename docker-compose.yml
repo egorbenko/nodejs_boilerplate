@@ -1,0 +1,26 @@
+backend:
+  build: ./backend
+  volumes:
+    - ./backend/:/app/backend/
+    - /app/backend/node_modules
+  ports:
+    - "3000:3000"
+  links:
+    - mongodb
+
+frontend:
+  build: ./frontend
+  volumes:
+    - ./frontend/:/app/frontend/
+    - /app/frontend/node_modules
+  ports:
+    - "8080:8080"
+  links:
+    - backend
+  command: npm run dev
+
+mongodb:
+  image: mongo:latest
+  ports:
+    - "27017:27017"
+  command: mongod --smallfiles

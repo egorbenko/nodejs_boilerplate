@@ -1,0 +1,11 @@
+backend/node_modules/*
+backend/typings/*
+backend/.env
+frontend/node_modules/*
+node_modules/*
+typings/*
+.vscode/*
+.idea/*
+.mongodb/*
+jsconfig.json
+

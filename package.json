@@ -1,0 +1,13 @@
+{
+  "name": "nodejs_boilerplate",
+  "version": "1.0.0",
+  "description": "* Node * Express * Vuejs (Vuepack) * MongoDB * Socket.IO",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "egorbenko <efim.gorbenko@gmail.com>",
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-google": "^0.6.0"
+  }
+}
